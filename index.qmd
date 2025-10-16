@@ -259,7 +259,7 @@ h_i(t)= h_0(t)\exp \left[ \, \colorbox{#2E8B57}{$\color{white}\boldsymbol w_i^\t
   $$
 </div>
 
-<div style="position:absolute; top:50%; left:0%;" class="fragment fade-in-then-out">
+<div style="position:absolute; top:55%; left:0%;" class="fragment fade-in-then-out">
   - We assume 
   
   $$
@@ -268,32 +268,32 @@ h_i(t)= h_0(t)\exp \left[ \, \colorbox{#2E8B57}{$\color{white}\boldsymbol w_i^\t
   $$
 </div>
 
-<div style="position:absolute; top:50%; left:0%;" class="fragment fade-in">
+<div style="position:absolute; top:55%; left:0%;" class="fragment fade-in">
   - [Conditional independence]{style="color:#00BFFF;"} is assumed 
 </div>
 
-<div style="position:absolute; top:62%; left:41%;" class="fragment fade-in-then-out">
+<div style="position:absolute; top:67%; left:41%;" class="fragment fade-in-then-out">
   $$
   \large\require{color}
   (\, \textcolor{#D2691E}{\boldsymbol{y}} , \textcolor{#2E8B57}{T^*} , \boldsymbol{b}\, )
   $$
 </div>
 
-<div style="position:absolute; top:62%; left:38%" class="fragment fade-in-then-out">
+<div style="position:absolute; top:67%; left:38%" class="fragment fade-in-then-out">
   $$
   \large\require{color}
   (\, \textcolor{#D2691E}{\boldsymbol{y}} \mid \boldsymbol{b}\, ) (\,\textcolor{#2E8B57}{T^*} \mid \boldsymbol{b}\, )
   $$
 </div>
 
-<div style="position:absolute; top:62%; left:18%;" class="fragment fade-in-then-out">
+<div style="position:absolute; top:67%; left:18%;" class="fragment fade-in-then-out">
   $$
   \large\require{color}
   (\, \textcolor{#D2691E}{\boldsymbol{y_1}} \mid \boldsymbol{b_1}\, ) \cdots (\, \textcolor{#D2691E}{\boldsymbol{y_L}} \mid \boldsymbol{b_L}\, ) (\,\textcolor{#2E8B57}{T^*} \mid \boldsymbol{b}\, )
   $$
 </div>
 
-<div style="position:absolute; top:63%; left:0%;" class="fragment fade-in-then-out">
+<div style="position:absolute; top:66%; left:0%;" class="fragment fade-in-then-out">
 - If $L$ is [large]{style="color:red;"}, fitting the model becomes [computationally prohibitive]{style="color:red;"}
 </div>
 

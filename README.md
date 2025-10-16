@@ -1,2 +1,2 @@
-# CEB2025_Elche
-Presentation for the 2025 Conference of the Spanish Biostatistics Society in Elche. See the slides in the website (https://arnaugf.github.io/CEB2025_Elche/). 
+# Premi Almirall - XXIII Concurs Student d’Estadística Aplicada
+Presentació pel XXV Dia de la Estadística que es celebrarà a la Sala d’Actes de la Facultat de Ciències de la Universitat Autònoma de Barcelona amb motiu del premi Almirall al millor treball de bioestadística (https://arnaugf.github.io/premi_student/). 

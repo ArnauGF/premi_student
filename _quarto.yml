@@ -1,0 +1,11 @@
+project:
+  type: website
+
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+
+resources:
+  - images/

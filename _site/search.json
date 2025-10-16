@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "index.html#context-and-motivation",
+    "href": "index.html#context-and-motivation",
+    "title": "",
+    "section": "Context and motivation",
+    "text": "Context and motivation\n\nTime-to-event and longitudinal data are fundamental in health-related studies\nA significant feature is its temporal dimension, allowing for dynamic predictions\nThese predictions have demonstrated utility in precision medicine"
+  },
+  {
+    "objectID": "index.html#context-and-motivation-1",
+    "href": "index.html#context-and-motivation-1",
+    "title": "",
+    "section": "Context and motivation",
+    "text": "Context and motivation\n\nJoint models (JMs) provide a suitable framework for analyzing time-to-event and longitudinal data together\nJMs allow dynamic predictions\nApplying JMs to multivariate longitudinal data poses challenges due to the increased number of random effects and parameters"
+  },
+  {
+    "objectID": "index.html#the-pbc-dataset",
+    "href": "index.html#the-pbc-dataset",
+    "title": "",
+    "section": "The PBC dataset",
+    "text": "The PBC dataset\n\nThe PBC dataset is a widely used, freely available, dataset that will be used to apply the methods\nBy using the PBC dataset, all methods are fully reproducible\nPrimary biliary cirrhosis (PBC) is a rare disease that could eventually lead to liver cirrhosis"
+  },
+  {
+    "objectID": "index.html#the-pbc-dataset-1",
+    "href": "index.html#the-pbc-dataset-1",
+    "title": "",
+    "section": "The PBC dataset",
+    "text": "The PBC dataset"
+  },
+  {
+    "objectID": "index.html#notation",
+    "href": "index.html#notation",
+    "title": "",
+    "section": "Notation",
+    "text": "Notation\n\n\\(\\require{color}\\textcolor{#2E8B57}{T_1^*,\\dots, T_n^*}\\) true time until event\n\\(\\require{color}\\textcolor{#2E8B57}{C_1,\\dots, C_n}\\) censoring times\n\\(\\require{color}\\textcolor{#2E8B57}{T_i=\\min(T_i^*, C_i)}\\) observed times, \\(i=1,\\dotsc,n\\)\n\\(\\require{color}\\textcolor{#2E8B57}{\\delta_i=\\mathbf{1}\\{T_i^*\\leq C_i\\}}\\) censoring indicator, \\(i=1,\\dotsc,n\\)\nLongitudinal data \\(\\require{color}\\textcolor{#D2691E}{\\{\\boldsymbol{y}_{li}; i=1,\\dots,n, l=1,\\dots,L\\}}\\)\n\n\\(\\require{color}\\textcolor{#D2691E}{y_{li}(t_{ij})}\\) value of the longitudinal outcome at \\(t_{ij}\\), \\(j=1,\\dots,n_{li}\\)\n\n\\(\\require{color}\\textcolor{#2E8B57}{w_i}\\) vector of baseline covarites"
+  },
+  {
+    "objectID": "index.html#multivariate-longitudinal-data",
+    "href": "index.html#multivariate-longitudinal-data",
+    "title": "",
+    "section": "Multivariate longitudinal data",
+    "text": "Multivariate longitudinal data\n\n\n\n\n\n\n\n\\[\\huge{\\cdots}\\]\n\n\n\n\n\n\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\begin{split}\n  (T_1 &,\\delta_1) \\\\\n  &w_1\n  \\end{split}\\]\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\scriptsize{\\begin{split}\n  (1.09 , & 1) \\\\\n  (\\text{female}, \\text{ D} & \\text{-peni} , 57)\n  \\end{split}}\\]\n\n\n\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\begin{split}\n  (T_2 &,\\delta_2) \\\\\n  &w_2\n  \\end{split}\\]\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\scriptsize{\\begin{split}\n  (14.15 , & 0) \\\\\n  (\\text{female}, \\text{ D} & \\text{-peni}  , 56)\n  \\end{split}}\\]\n\n\n\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\begin{split}\n  (T_n &,\\delta_n) \\\\\n  &w_n\n  \\end{split}\\]\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\scriptsize{\\begin{split}\n  (3.98 , & 0) \\\\\n  (\\text{female}, \\text{ plac} & \\text{ebo} , 33)\n  \\end{split}}\\]"
+  },
+  {
+    "objectID": "index.html#multivariate-longitudinal-data-1",
+    "href": "index.html#multivariate-longitudinal-data-1",
+    "title": "",
+    "section": "Multivariate longitudinal data",
+    "text": "Multivariate longitudinal data\n\n\n\n\n\n\n\n\\[\\huge{\\cdots}\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\[\\require{color}\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_1 &,\\color{#2E8B57}\\delta_1) \\\\\n  & \\color{#2E8B57}w_1 \\\\\n  \\color{#D2691E}(y_{11}(t_{ij}), & \\color{#D2691E}\\dots, y_{L1}(t_{ij}))\n  \\end{split}}\\]\n\n\n\\[\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_2 &,\\color{#2E8B57}\\delta_2) \\\\\n  & \\color{#2E8B57}w_2 \\\\\n  \\color{#D2691E}(y_{12}(t_{ij}), & \\color{#D2691E}\\dots, y_{L2}(t_{ij}))\n  \\end{split}}\\]\n\n\n\\[\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_n &,\\color{#2E8B57}\\delta_n) \\\\\n  & \\color{#2E8B57}w_n \\\\\n  \\color{#D2691E}(y_{1n}(t_{ij}), & \\color{#D2691E}\\dots, y_{Ln}(t_{ij}))\n  \\end{split}}\\]"
+  },
+  {
+    "objectID": "index.html#multivariate-longitudinal-data-2",
+    "href": "index.html#multivariate-longitudinal-data-2",
+    "title": "",
+    "section": "Multivariate longitudinal data",
+    "text": "Multivariate longitudinal data\n\n\n\n\n\\[i\\]\n\n\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\scriptsize{\\begin{split}\n  &(T_i ,\\delta_i) = (6.43, 0) \\\\\n  w_i &= (\\text{female}, \\text{ D} \\text{-peni}  , 56)\n  \\end{split}}\\]\n\n\n\\[\\require{color}\\color{#D2691E}\\scriptsize{\\begin{split}\n  &(y_{1i}(t_{ij}), y_{2i}(t_{ij}) , y_{3i}(t_{ij})) = \\\\\n  (\\log(\\texttt{serBilir})_i&(t_{ij}), \\texttt{albumin}_i(t_{ij}), \\texttt{alkaline}_i(t_{ij}))\n  \\end{split}}\\]"
+  },
+  {
+    "objectID": "index.html#methods",
+    "href": "index.html#methods",
+    "title": "",
+    "section": "Methods",
+    "text": "Methods\n\nJoint model:\n\n\n\\[\n  \\scriptsize\\require{color}\n  \\begin{cases}\ng_l\\left(E(y_{li}(t)|\\boldsymbol{b}_{li})\\right)=\\colorbox{#D2691E}{$\\color{white}m_{li}(t)$}= \\colorbox{#D2691E}{$\\color{white}\\boldsymbol x_{li}^\\top(t)\\boldsymbol\\beta_l +  \\boldsymbol z_{li}^\\top(t)\\boldsymbol b_{li}$}, \\quad l=1,\\dots,L \\\\\n\\\\\nh_i(t)= h_0(t)\\exp \\left[ \\, \\colorbox{#2E8B57}{$\\color{white}\\boldsymbol w_i^\\top \\boldsymbol\\gamma$} + \\sum_{l=0}^L\\alpha_l\\, \\colorbox{#D2691E}{$\\color{white}m_{li}(t)$} \\, \\right] \\\\\n\\end{cases}\n  \\]\n\n\n\nWe assume\n\n\\[\n  \\scriptsize\\require{color}\n  \\boldsymbol{b}_i = (\\boldsymbol{b}_{1i}^\\top, \\boldsymbol{b}_{2i}^\\top, \\dots, \\boldsymbol{b}_{Li}^\\top)^\\top \\sim N\\left( \\boldsymbol{0} , \\boldsymbol{D} \\right)\n  \\]\n\n\n\nConditional independence is assumed\n\n\n\n\\[\n  \\large\\require{color}\n  (\\, \\textcolor{#D2691E}{\\boldsymbol{y}} , \\textcolor{#2E8B57}{T^*} , \\boldsymbol{b}\\, )\n  \\]\n\n\n\\[\n  \\large\\require{color}\n  (\\, \\textcolor{#D2691E}{\\boldsymbol{y}} \\mid \\boldsymbol{b}\\, ) (\\,\\textcolor{#2E8B57}{T^*} \\mid \\boldsymbol{b}\\, )\n  \\]\n\n\n\\[\n  \\large\\require{color}\n  (\\, \\textcolor{#D2691E}{\\boldsymbol{y_1}} \\mid \\boldsymbol{b_1}\\, ) \\cdots (\\, \\textcolor{#D2691E}{\\boldsymbol{y_L}} \\mid \\boldsymbol{b_L}\\, ) (\\,\\textcolor{#2E8B57}{T^*} \\mid \\boldsymbol{b}\\, )\n  \\]\n\n\n\nIf \\(L\\) is large, fitting the model becomes computationally prohibitive"
+  },
+  {
+    "objectID": "index.html#dynamic-predictions",
+    "href": "index.html#dynamic-predictions",
+    "title": "",
+    "section": "Dynamic predictions",
+    "text": "Dynamic predictions\n\nNew subject \\(j\\) with \\(\\textcolor{#2E8B57}{w_j}\\) and\n\n\\[\n\\require{color}\\color{#D2691E}\\boldsymbol{\\mathcal{Y}_{j}^o(t)}=\\left\\{y_{lj}(t_{ik}) ; 0 \\leq t_{ik} \\leq t, k=1,\\dots, n_{lj}, l=1,\\dots,L\\right\\}\n\\]\n\n\nCumulative risk probabilities\n\n\\[\n  \\normalsize\\require{color}\n  \\pi_{j}(u \\mid t)=\\operatorname{P}\\left(T_{j}^* \\leq u \\mid T_{j}^*&gt;t, \\boldsymbol{\\color{#D2691E}{\\mathcal{Y}}_{j}^o(t)},  \\textcolor{#2E8B57}{w_j}; \\boldsymbol{\\theta}\\right)\n  \\]\n\n\n\nEstimation based on posterior predictive distributions\n\n\n\n\nMonte Carlo scheme used in practice"
+  },
+  {
+    "objectID": "index.html#super-learning",
+    "href": "index.html#super-learning",
+    "title": "",
+    "section": "Super learning",
+    "text": "Super learning\n\nSuper learning (SL) is an ensemble method that combines prediction algorithms to obtain an optimal prediction\nOptimality is defined with respect a strictly proper scoring rule (a metric uniquely minimized by the true model)\nSL is built under cross-validation (CV) framework"
+  },
+  {
+    "objectID": "index.html#idea",
+    "href": "index.html#idea",
+    "title": "",
+    "section": "Idea",
+    "text": "Idea\n\nDecompose the multivariate joint model:\n\n\n\\[\\normalsize\\require{color}\n  h_i(t)= h_0(t)\\exp \\left[ \\, \\boldsymbol w_i^\\top \\boldsymbol\\gamma + \\sum_{l=0}^L\\alpha_l\\, m_{li}(t) \\, \\right]\\]\n\n\n\n\n\n\\[\\normalsize\\require{color}\n  M_1:\\, h_i(t)= h_0(t)\\exp \\left[ \\, \\boldsymbol w_i^\\top \\boldsymbol\\gamma + \\alpha_1\\, m_{1i}(t) \\, \\right]\\]\n\n\n\n\n\n\\[\\normalsize\\require{color}\n  M_2:\\,h_i(t)= h_0(t)\\exp \\left[ \\, \\boldsymbol w_i^\\top \\boldsymbol\\gamma + \\alpha_2\\, m_{2i}(t) \\, \\right]\\]\n\n\n\\[\\huge\\vdots\\]\n\n\n\n\n\n\\[\\normalsize\\require{color}\n  M_L:\\, h_i(t)= h_0(t)\\exp \\left[ \\, \\boldsymbol w_i^\\top \\boldsymbol\\gamma + \\alpha_L\\, m_{Li}(t) \\, \\right]\\]"
+  },
+  {
+    "objectID": "index.html#super-learning-1",
+    "href": "index.html#super-learning-1",
+    "title": "",
+    "section": "Super learning",
+    "text": "Super learning"
+  },
+  {
+    "objectID": "index.html#simulation-study",
+    "href": "index.html#simulation-study",
+    "title": "",
+    "section": "Simulation study",
+    "text": "Simulation study\n\n\n\\(\\require{color}\\textcolor{#00BFFF}{L=4}\\) longitudinal outcomes were considered\nData-generating model: a multivariate joint model\nSuper learning is applied to \\(\\require{color}\\textcolor{#00BFFF}{\\{M_1, M_2, M_3, M_4\\}}\\) with \\(\\require{color}\\textcolor{#00BFFF}{V=3}\\)\nGoal: to compare SL-based predictions with true model predictions\n\n\n\n\nScenario I: Administrative censoring\nScenario II: Random censoring\nScenario III: Informative censoring\nIntegrated Brier score (IBS) and expected cross-entropy (EPCE) as scoring rules\n\n\n\nResults\n\nSL-based predictions closely approximate the true model\nSL accounts well for overfitting: similar results between training and testing data"
+  },
+  {
+    "objectID": "index.html#case-study-pbc-data",
+    "href": "index.html#case-study-pbc-data",
+    "title": "",
+    "section": "Case study: PBC data",
+    "text": "Case study: PBC data\n\n\n\n\n\\[ \\scriptsize\\begin{cases}\n         \\log(\\texttt{serBilir}(t_{ij})) & = \\colorbox{#D2691E}{$\\color{white}m_{1i}(t_{ij})$} + \\varepsilon_{1i}(t_{ij}) \\\\\n        &=  (\\beta_0^1 + b_{0i}^1) + (\\beta_{1}^1 + b_{1i}^1)t_{ij} + \\beta_2^1\\texttt{drug}_i +  \\varepsilon_{1i}(t_{ij}),\\\\\n         \\texttt{albumin}(t_{ij}) & = \\colorbox{#D2691E}{$\\color{white}m_{2i}(t_{ij})$} + \\varepsilon_{2i}(t_{ij}) \\\\\n         & = (\\beta_0^2 + b_{0i}^2) + (\\beta_1^2 + b_{1i}^2)t_{ij} + \\beta_2^2\\texttt{sex}_i + \\varepsilon_{2i}(t_{ij}),\\\\\n          \\texttt{alkaline}(t_{ij}) & = \\colorbox{#D2691E}{$\\color{white}m_{3i}(t_{ij})$} + \\varepsilon_{3i}(t_{ij}) \\\\\n        & =(\\beta_0^3 + b_{0i}^3) + (\\beta_{1}^3 + b_{1i}^3)t_{ij} + \\varepsilon_{3i}(t_{ij}),\\\\\n        \\log\\left( \\frac{p(\\texttt{ascites}(t_{ij})=1)}{1-p(\\texttt{ascites}(t_{ij})=1)} \\right) & = \\colorbox{#D2691E}{$\\color{white}m_{4i}(t_{ij})$} + \\varepsilon_{4i}(t_{ij})\\\\\n        & = (\\beta_0^4 + b_{0i}^4) + \\beta_1^4t_{ij} + \\varepsilon_{4i}(t_{ij}).\n    \\end{cases}\\]\n\n\n\nWe fitted a multivariate JM, and we applied SL to the library of univariate JMs \\(\\{M_1, M_2, M_3, M_4\\}\\)\n\n\\[\\scriptsize\\begin{split} h_{i}\\left(t \\mid \\colorbox{#D2691E}{$\\color{white}\\boldsymbol{\\mathcal{Y}}_{i}(t)$}, \\colorbox{#2E8B57}{$\\color{white}\\boldsymbol{w}_{i}$}\\right) =h_{0}(t) \\exp \\big( & \\colorbox{#2E8B57}{$\\color{white}\\gamma\\texttt{drug}_i$}+ \\alpha_1\\colorbox{#D2691E}{$\\color{white}m_{1i}(t_{ij})$} + \\alpha_2\\colorbox{#D2691E}{$\\color{white}m_{2i}(t_{ij})$} \\\\\n& \\alpha_3\\colorbox{#D2691E}{$\\color{white}m_{3i}(t_{ij})$} + \\alpha_4\\colorbox{#D2691E}{$\\color{white}m_{4i}(t_{ij})$}\\big)\n\\end{split}\\]\n\n\n\nWe fitted a multivariate JM, and we applied SL to the library of univariate JMs \\(\\{M_1, M_2, M_3, M_4\\}\\)\n\n\\[\\scriptsize\\begin{cases}\nM1: & h_{i}\\left(t \\mid \\colorbox{#D2691E}{$\\color{white}\\boldsymbol{\\mathcal{Y}}_{i}(t)$}, \\colorbox{#2E8B57}{$\\color{white}\\boldsymbol{w}_{i}$}\\right) =h_{0}(t) \\exp \\big(  \\colorbox{#2E8B57}{$\\color{white}\\gamma\\texttt{drug}_i$}+ \\alpha_1\\colorbox{#D2691E}{$\\color{white}m_{1i}(t_{ij})$} \\big) \\\\\nM2: & h_{i}\\left(t \\mid \\colorbox{#D2691E}{$\\color{white}\\boldsymbol{\\mathcal{Y}}_{i}(t)$}, \\colorbox{#2E8B57}{$\\color{white}\\boldsymbol{w}_{i}$}\\right) =h_{0}(t) \\exp \\big(  \\colorbox{#2E8B57}{$\\color{white}\\gamma\\texttt{drug}_i$}+ \\alpha_2\\colorbox{#D2691E}{$\\color{white}m_{2i}(t_{ij})$} \\big) \\\\\nM3: & h_{i}\\left(t \\mid \\colorbox{#D2691E}{$\\color{white}\\boldsymbol{\\mathcal{Y}}_{i}(t)$}, \\colorbox{#2E8B57}{$\\color{white}\\boldsymbol{w}_{i}$}\\right) =h_{0}(t) \\exp \\big(  \\colorbox{#2E8B57}{$\\color{white}\\gamma\\texttt{drug}_i$}+ \\alpha_3\\colorbox{#D2691E}{$\\color{white}m_{3i}(t_{ij})$} \\big) \\\\\nM4: & h_{i}\\left(t \\mid \\colorbox{#D2691E}{$\\color{white}\\boldsymbol{\\mathcal{Y}}_{i}(t)$}, \\colorbox{#2E8B57}{$\\color{white}\\boldsymbol{w}_{i}$}\\right) =h_{0}(t) \\exp \\big(  \\colorbox{#2E8B57}{$\\color{white}\\gamma\\texttt{drug}_i$}+ \\alpha_4\\colorbox{#D2691E}{$\\color{white}m_{4i}(t_{ij})$} \\big)\n\\end{cases}\\]\n\n\n\nResults:\n\n\n\n\n\nResults:\n\n\n\n\n\nResults:"
+  },
+  {
+    "objectID": "index.html#software",
+    "href": "index.html#software",
+    "title": "",
+    "section": "Software",
+    "text": "Software\n\nPackage available in CRAN\nVignette on super learning available in JMBbayes2 Website"
+  },
+  {
+    "objectID": "index.html#discussion",
+    "href": "index.html#discussion",
+    "title": "",
+    "section": "Discussion",
+    "text": "Discussion\n\n\nSL predictions successfully approximate multivariate JM\nSL has responded well to overfitting\nSL present advantages with respect established methods (such as Bayesian model averaging)\nSL allows us to derive dynamic predictions when \\(L\\) is large\n\n\n\n\nAs a cross-validation method, SL remains computationally expensive\nSL is prediction-oriented and not designed for inferences\nA sensitivity analysis should be conducted\n\n\n\n\nComplete code for the simulations and application in the PBC data available in my GitHub\nOpen access to my master’s thesis manuscript"
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\n\nGrant PID2023-148033OB-C21: Statistics for Health Sciences: Advances in Survival Analysis and Clinical Trials. Financiado por MICIU/AEI /10.13039/501100011033 y por FEDER, UE.\nGrant 2021 SGR 01421: GRBIO: Grup de Recerca en Bioestadística i Bioinformàtica. Agència de Gestió d’Ajuts Universitaris i de Recerca.\nProjecte Iniciació a la Recerca (INIREC), convocatòria 5601."
+  }
+]

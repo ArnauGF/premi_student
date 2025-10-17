@@ -252,44 +252,17 @@ $$
 
 ## Super learning
 
-<div style="position:absolute; top:22%; left:7%;" class="fragment fade-in-then-out">
-  <img src="images/sl1.png" style="width:100%; text-align:center;">
-</div>
-
-<div style="position:absolute; top:30%; left:7%;" class="fragment fade-in-then-out">
-  <img src="images/sl2.png" style="width:100%; text-align:center;">
-</div>
-
-<div style="position:absolute; top:13%; left:7%;" class="fragment fade-in-then-out">
-  <img src="images/sl3.png" style="width:120%; text-align:center;">
-</div>
-
-<div style="position:absolute; top:13%; left:7%;" class="fragment fade-in-then-out">
-  <img src="images/sl4.png" style="width:120%; text-align:center;">
-</div>
-
-<div style="position:absolute; top:11%; left:7%;" class="fragment fade-in-then-out">
-  <img src="images/sl5.png" style="width:120%; text-align:center;">
-</div>
 
 <div style="position:absolute; top:22%; left:7%;" class="fragment fade-in-then-out">
-  <img src="images/sl6.png" style="width:120%; text-align:center;">
+  <img src="images/SL_student_predict.png" style="width:120%; text-align:center;">
 </div>
 
-<div style="position:absolute; top:10%; left:11%;" class="fragment fade-in-then-out">
-  <img src="images/sl7.png" style="width:78%; text-align:center;">
+<div style="position:absolute; top:29%; left:9%;" class="fragment fade-in-then-out">
+  <img src="images/SL_student_optim.png" style="width:130%; text-align:center;">
 </div>
 
-<div style="position:absolute; top:15%; left:7%;" class="fragment fade-in-then-out">
-  <img src="images/sl8.png" style="width:85%; text-align:center;">
-</div>
-
-<div style="position:absolute; top:17%; left:7%;" class="fragment fade-in-then-out">
-  <img src="images/sl9.png" style="width:95%; text-align:center;">
-</div>
-
-<div style="position:absolute; top:10%; left:9%;" class="fragment fade-in-then-out">
-  <img src="images/sl10b.png" style="width:72%; text-align:center;">
+<div style="position:absolute; top:13%; left:9%;" class="fragment fade-in-then-out">
+  <img src="images/SL_student_combination.png" style="width:72%; text-align:center;">
 </div>
 
 ## Simulation study 
@@ -363,26 +336,12 @@ M4: & h_{i}\left(t \mid \colorbox{#D2691E}{$\color{white}\boldsymbol{\mathcal{Y}
 </div>
 
 
-## Software
-
-- Package available in [CRAN]{style="color:#00BFFF;"}
-- [Vignette on super learning]{style="color:#00BFFF;"} available in [JMBbayes2 Website](https://drizopoulos.github.io/JMbayes2/articles/Super_Learning.html)
-
-<div style="position:absolute; top:40%; left:20%;" class="fragment fade-in">
-  <img src="images/JMBayes2-logo-no-background.gif" style="width:40%; text-align:center;">
-</div>
-
-<div style="position:absolute; top:45%; left:60%;" class="fragment fade-in">
-  <img src="images/qr_vignette.png" style="width:63%; text-align:center;">
-</div>
-
 ## Discussion
 
 <div style="position:absolute; top:14%; left:0%;" class="fragment fade-in-then-out">
 
 - [SL predictions]{style="color:#00BFFF;"} successfully approximate [multivariate JM]{style="color:#00BFFF;"}
 - [SL]{style="color:#00BFFF;"} has responded well to [overfitting]{style="color:#00BFFF;"}
-- [SL]{style="color:#00BFFF;"} present advantages with respect established methods (such as Bayesian model averaging)
 - [SL]{style="color:#00BFFF;"} allows us to derive dynamic predictions when $L$ is large
 
 </div>

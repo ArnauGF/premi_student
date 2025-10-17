@@ -93,93 +93,6 @@ format:
   <img src="images/arrow.png" style="width:18%;" class="fragment fade-in">
 </div>
 
-::: {.fragment .fade-in-then-out}
-<div style="position:absolute; top:80%; left:9%; font-size:30px;">
-  $$\require{color}\color{#2E8B57}\begin{split}
-  (T_1 &,\delta_1) \\
-  &w_1
-  \end{split}$$
-</div>
-:::
-
-<div style="position:absolute; top:80%; left:3%; font-size:30px;" class="fragment fade-in">
-  $$\require{color}\color{#2E8B57}\scriptsize{\begin{split}
-  (1.09 , & 1) \\
-  (\text{female}, \text{ D} & \text{-peni} , 57)
-  \end{split}}$$
-</div>
-
-<div style="position:absolute; top:55%; left:36%; font-size:30px;">
-  <img src="images/arrow.png" style="width:18%;" class="fragment fade-in">
-</div>
-
-::: {.fragment .fade-in-then-out}
-<div style="position:absolute; top:80%; left:32%; font-size:30px;">
-  $$\require{color}\color{#2E8B57}\begin{split}
-  (T_2 &,\delta_2) \\
-  &w_2
-  \end{split}$$
-</div>
-:::
-
-<div style="position:absolute; top:80%; left:27%; font-size:30px;" class="fragment fade-in">
-  $$\require{color}\color{#2E8B57}\scriptsize{\begin{split}
-  (14.15 , & 0) \\
-  (\text{female}, \text{ D} & \text{-peni}  , 56)
-  \end{split}}$$
-</div>
-
-<div style="position:absolute; top:55%; left:84%; font-size:30px;">
-  <img src="images/arrow.png" style="width:18%;" class="fragment fade-in">
-</div>
-
-::: {.fragment .fade-in-then-out}
-<div style="position:absolute; top:80%; left:79%; font-size:30px;">
-  $$\require{color}\color{#2E8B57}\begin{split}
-  (T_n &,\delta_n) \\
-  &w_n
-  \end{split}$$
-</div>
-:::
-
-<div style="position:absolute; top:80%; left:72%; font-size:30px;" class="fragment fade-in">
-  $$\require{color}\color{#2E8B57}\scriptsize{\begin{split}
-  (3.98 , & 0) \\
-  (\text{female}, \text{ plac} & \text{ebo} , 33)
-  \end{split}}$$
-</div>
-
-
-## Multivariate longitudinal data 
-
-<div style="position:absolute; top:15%; left:10%; font-size:30px;">
-  <img src="images/men1.png" style="width:50%;">
-</div>
-
-<div style="position:absolute; top:15%; left:33%; font-size:30px;">
-  <img src="images/men2.png" style="width:42%;">
-</div>
-
-<div style="position:absolute; top:30%; left:55%; font-size:30px;">
-  $$\huge{\cdots}$$
-</div>
-
-<div style="position:absolute; top:15%; left:80%; font-size:30px;">
-  <img src="images/men3.png" style="width:50%;">
-</div>
-
-<div style="position:absolute; top:55%; left:13%; font-size:30px;">
-  <img src="images/arrow.png" style="width:18%;">
-</div>
-
-<div style="position:absolute; top:55%; left:36%; font-size:30px;">
-  <img src="images/arrow.png" style="width:18%;">
-</div>
-
-<div style="position:absolute; top:55%; left:84%; font-size:30px;">
-  <img src="images/arrow.png" style="width:18%;">
-</div>
-
 <div style="position:absolute; top:80%; left:4%; font-size:30px;" class="fragment fade-in">
   $$\require{color}\scriptsize{\begin{split}
   \color{#2E8B57}(T_1 &,\color{#2E8B57}\delta_1) \\
@@ -188,12 +101,20 @@ format:
   \end{split}}$$
 </div>
 
+<div style="position:absolute; top:55%; left:36%; font-size:30px;">
+  <img src="images/arrow.png" style="width:18%;" class="fragment fade-in">
+</div>
+
 <div style="position:absolute; top:80%; left:28%; font-size:30px;" class="fragment fade-in">
   $$\scriptsize{\begin{split}
   \color{#2E8B57}(T_2 &,\color{#2E8B57}\delta_2) \\
   & \color{#2E8B57}w_2 \\
   \color{#D2691E}(y_{12}(t_{ij}), & \color{#D2691E}\dots, y_{L2}(t_{ij}))
   \end{split}}$$
+</div>
+
+<div style="position:absolute; top:55%; left:84%; font-size:30px;">
+  <img src="images/arrow.png" style="width:18%;" class="fragment fade-in">
 </div>
 
 <div style="position:absolute; top:80%; left:75%; font-size:30px;" class="fragment fade-in">
@@ -316,14 +237,6 @@ $$
   $$
 </div>
 
-<div style="position:absolute; top:82%; left:0%;" class="fragment fade-in-then-out">
-  - Estimation based on [posterior predictive distributions]{style="color:#00BFFF;"}
-</div>
-
-<div style="position:absolute; top:82%; left:0%;" class="fragment fade-in-then-out">
-  - [Monte Carlo scheme]{style="color:#00BFFF;"} used in practice
-</div>
-
 ## Super learning
 
 - [Super learning (SL)]{style="color:#00BFFF;"} is an ensemble method that [combines]{style="color:#00BFFF;"} prediction algorithms to obtain an optimal prediction
@@ -414,21 +327,7 @@ $$
 
 ## Simulation study 
 
-<div style="position:absolute; top:12%; left:0%;" class="fragment fade-in-then-out">
-- $\require{color}\textcolor{#00BFFF}{L=4}$ longitudinal outcomes were considered
-- Data-generating model: a [multivariate joint model]{style="color:#00BFFF;"}
-- [Super learning]{style="color:#00BFFF;"} is applied to $\require{color}\textcolor{#00BFFF}{\{M_1, M_2, M_3, M_4\}}$ with $\require{color}\textcolor{#00BFFF}{V=3}$
-- [Goal:]{style="color:#00BFFF;"} to compare SL-based predictions with true model predictions
-</div>
-
-<div style="position:absolute; top:12%; left:0%;" class="fragment fade-in-then-out">
-- Scenario I: [Administrative censoring]{style="color:#00BFFF;"}
-- Scenario II: [Random censoring]{style="color:#00BFFF;"}
-- Scenario III: [Informative censoring]{style="color:#00BFFF;"}
-- [Integrated Brier score (IBS)]{style="color:#00BFFF;"} and [expected cross-entropy (EPCE)]{style="color:#00BFFF;"} as scoring rules
-</div>
-
-<div style="position:absolute; top:12%; left:0%;" class="fragment fade-in-then-out">
+<div style="position:absolute; top:12%; left:0%;" class="fragment fade-in">
 
 [Results]{style="color:#00BFFF;"}
 

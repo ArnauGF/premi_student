@@ -39,18 +39,11 @@
     "href": "index.html#multivariate-longitudinal-data",
     "title": "",
     "section": "Multivariate longitudinal data",
-    "text": "Multivariate longitudinal data\n\n\n\n\n\n\n\n\\[\\huge{\\cdots}\\]\n\n\n\n\n\n\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\begin{split}\n  (T_1 &,\\delta_1) \\\\\n  &w_1\n  \\end{split}\\]\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\scriptsize{\\begin{split}\n  (1.09 , & 1) \\\\\n  (\\text{female}, \\text{ D} & \\text{-peni} , 57)\n  \\end{split}}\\]\n\n\n\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\begin{split}\n  (T_2 &,\\delta_2) \\\\\n  &w_2\n  \\end{split}\\]\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\scriptsize{\\begin{split}\n  (14.15 , & 0) \\\\\n  (\\text{female}, \\text{ D} & \\text{-peni}  , 56)\n  \\end{split}}\\]\n\n\n\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\begin{split}\n  (T_n &,\\delta_n) \\\\\n  &w_n\n  \\end{split}\\]\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\scriptsize{\\begin{split}\n  (3.98 , & 0) \\\\\n  (\\text{female}, \\text{ plac} & \\text{ebo} , 33)\n  \\end{split}}\\]"
+    "text": "Multivariate longitudinal data\n\n\n\n\n\n\n\n\\[\\huge{\\cdots}\\]\n\n\n\n\n\n\n\n\n\\[\\require{color}\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_1 &,\\color{#2E8B57}\\delta_1) \\\\\n  & \\color{#2E8B57}w_1 \\\\\n  \\color{#D2691E}(y_{11}(t_{ij}), & \\color{#D2691E}\\dots, y_{L1}(t_{ij}))\n  \\end{split}}\\]\n\n\n\n\n\n\\[\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_2 &,\\color{#2E8B57}\\delta_2) \\\\\n  & \\color{#2E8B57}w_2 \\\\\n  \\color{#D2691E}(y_{12}(t_{ij}), & \\color{#D2691E}\\dots, y_{L2}(t_{ij}))\n  \\end{split}}\\]\n\n\n\n\n\n\\[\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_n &,\\color{#2E8B57}\\delta_n) \\\\\n  & \\color{#2E8B57}w_n \\\\\n  \\color{#D2691E}(y_{1n}(t_{ij}), & \\color{#D2691E}\\dots, y_{Ln}(t_{ij}))\n  \\end{split}}\\]"
   },
   {
     "objectID": "index.html#multivariate-longitudinal-data-1",
     "href": "index.html#multivariate-longitudinal-data-1",
-    "title": "",
-    "section": "Multivariate longitudinal data",
-    "text": "Multivariate longitudinal data\n\n\n\n\n\n\n\n\\[\\huge{\\cdots}\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\[\\require{color}\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_1 &,\\color{#2E8B57}\\delta_1) \\\\\n  & \\color{#2E8B57}w_1 \\\\\n  \\color{#D2691E}(y_{11}(t_{ij}), & \\color{#D2691E}\\dots, y_{L1}(t_{ij}))\n  \\end{split}}\\]\n\n\n\\[\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_2 &,\\color{#2E8B57}\\delta_2) \\\\\n  & \\color{#2E8B57}w_2 \\\\\n  \\color{#D2691E}(y_{12}(t_{ij}), & \\color{#D2691E}\\dots, y_{L2}(t_{ij}))\n  \\end{split}}\\]\n\n\n\\[\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_n &,\\color{#2E8B57}\\delta_n) \\\\\n  & \\color{#2E8B57}w_n \\\\\n  \\color{#D2691E}(y_{1n}(t_{ij}), & \\color{#D2691E}\\dots, y_{Ln}(t_{ij}))\n  \\end{split}}\\]"
-  },
-  {
-    "objectID": "index.html#multivariate-longitudinal-data-2",
-    "href": "index.html#multivariate-longitudinal-data-2",
     "title": "",
     "section": "Multivariate longitudinal data",
     "text": "Multivariate longitudinal data\n\n\n\n\n\\[i\\]\n\n\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\scriptsize{\\begin{split}\n  &(T_i ,\\delta_i) = (6.43, 0) \\\\\n  w_i &= (\\text{female}, \\text{ D} \\text{-peni}  , 56)\n  \\end{split}}\\]\n\n\n\\[\\require{color}\\color{#D2691E}\\scriptsize{\\begin{split}\n  &(y_{1i}(t_{ij}), y_{2i}(t_{ij}) , y_{3i}(t_{ij})) = \\\\\n  (\\log(\\texttt{serBilir})_i&(t_{ij}), \\texttt{albumin}_i(t_{ij}), \\texttt{alkaline}_i(t_{ij}))\n  \\end{split}}\\]"
@@ -67,7 +60,7 @@
     "href": "index.html#dynamic-predictions",
     "title": "",
     "section": "Dynamic predictions",
-    "text": "Dynamic predictions\n\nNew subject \\(j\\) with \\(\\textcolor{#2E8B57}{w_j}\\) and\n\n\\[\n\\require{color}\\color{#D2691E}\\boldsymbol{\\mathcal{Y}_{j}^o(t)}=\\left\\{y_{lj}(t_{ik}) ; 0 \\leq t_{ik} \\leq t, k=1,\\dots, n_{lj}, l=1,\\dots,L\\right\\}\n\\]\n\n\nCumulative risk probabilities\n\n\\[\n  \\normalsize\\require{color}\n  \\pi_{j}(u \\mid t)=\\operatorname{P}\\left(T_{j}^* \\leq u \\mid T_{j}^*&gt;t, \\boldsymbol{\\color{#D2691E}{\\mathcal{Y}}_{j}^o(t)},  \\textcolor{#2E8B57}{w_j}; \\boldsymbol{\\theta}\\right)\n  \\]\n\n\n\nEstimation based on posterior predictive distributions\n\n\n\n\nMonte Carlo scheme used in practice"
+    "text": "Dynamic predictions\n\nNew subject \\(j\\) with \\(\\textcolor{#2E8B57}{w_j}\\) and\n\n\\[\n\\require{color}\\color{#D2691E}\\boldsymbol{\\mathcal{Y}_{j}^o(t)}=\\left\\{y_{lj}(t_{ik}) ; 0 \\leq t_{ik} \\leq t, k=1,\\dots, n_{lj}, l=1,\\dots,L\\right\\}\n\\]\n\n\nCumulative risk probabilities\n\n\\[\n  \\normalsize\\require{color}\n  \\pi_{j}(u \\mid t)=\\operatorname{P}\\left(T_{j}^* \\leq u \\mid T_{j}^*&gt;t, \\boldsymbol{\\color{#D2691E}{\\mathcal{Y}}_{j}^o(t)},  \\textcolor{#2E8B57}{w_j}; \\boldsymbol{\\theta}\\right)\n  \\]"
   },
   {
     "objectID": "index.html#super-learning",
@@ -95,7 +88,7 @@
     "href": "index.html#simulation-study",
     "title": "",
     "section": "Simulation study",
-    "text": "Simulation study\n\n\n\\(\\require{color}\\textcolor{#00BFFF}{L=4}\\) longitudinal outcomes were considered\nData-generating model: a multivariate joint model\nSuper learning is applied to \\(\\require{color}\\textcolor{#00BFFF}{\\{M_1, M_2, M_3, M_4\\}}\\) with \\(\\require{color}\\textcolor{#00BFFF}{V=3}\\)\nGoal: to compare SL-based predictions with true model predictions\n\n\n\n\nScenario I: Administrative censoring\nScenario II: Random censoring\nScenario III: Informative censoring\nIntegrated Brier score (IBS) and expected cross-entropy (EPCE) as scoring rules\n\n\n\nResults\n\nSL-based predictions closely approximate the true model\nSL accounts well for overfitting: similar results between training and testing data"
+    "text": "Simulation study\n\nResults\n\nSL-based predictions closely approximate the true model\nSL accounts well for overfitting: similar results between training and testing data"
   },
   {
     "objectID": "index.html#case-study-pbc-data",

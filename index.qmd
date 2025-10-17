@@ -9,7 +9,7 @@ format:
     menu: false
 ---
 
-## { data-state="cover-slide" data-background-image="images/cover1_1080.png" data-background-size="cover" visibility="uncounted"}
+## { data-state="cover-slide" data-background-image="images/concurso_arnau.png" data-background-size="cover" visibility="uncounted"}
 
 ## Context and motivation
 
@@ -450,7 +450,7 @@ M4: & h_{i}\left(t \mid \colorbox{#D2691E}{$\color{white}\boldsymbol{\mathcal{Y}
 </div>
 
 
-## { data-state="cover-slide" data-background-image="images/final_slide.png" data-background-size="cover" visibility="uncounted"}
+## { data-state="cover-slide" data-background-image="images/concurso_arnau_1.png" data-background-size="cover" visibility="uncounted"}
 
 
 

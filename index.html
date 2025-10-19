@@ -393,51 +393,6 @@
 </section>
 <section id="multivariate-longitudinal-data" class="slide level2">
 <h2>Multivariate longitudinal data</h2>
-<div style="position:absolute; top:15%; left:10%; font-size:30px;">
-<p><img src="images/men1.png" style="width:50%;" class="fragment fade-in"></p>
-</div>
-<div style="position:absolute; top:15%; left:33%; font-size:30px;">
-<p><img src="images/men2.png" style="width:42%;" class="fragment fade-in"></p>
-</div>
-<div class="fragment fade-in" style="position:absolute; top:30%; left:55%; font-size:30px;">
-<p><span class="math display">\[\huge{\cdots}\]</span></p>
-</div>
-<div style="position:absolute; top:15%; left:80%; font-size:30px;">
-<p><img src="images/men3.png" style="width:50%;" class="fragment fade-in"></p>
-</div>
-<div style="position:absolute; top:55%; left:13%; font-size:30px;">
-<p><img src="images/arrow.png" style="width:18%;" class="fragment fade-in"></p>
-</div>
-<div class="fragment fade-in" style="position:absolute; top:80%; left:4%; font-size:30px;">
-<p><span class="math display">\[\require{color}\scriptsize{\begin{split}
-  \color{#2E8B57}(T_1 &amp;,\color{#2E8B57}\delta_1) \\
-  &amp; \color{#2E8B57}w_1 \\
-  \color{#D2691E}(y_{11}(t_{ij}), &amp; \color{#D2691E}\dots, y_{L1}(t_{ij}))
-  \end{split}}\]</span></p>
-</div>
-<div style="position:absolute; top:55%; left:36%; font-size:30px;">
-<p><img src="images/arrow.png" style="width:18%;" class="fragment fade-in"></p>
-</div>
-<div class="fragment fade-in" style="position:absolute; top:80%; left:28%; font-size:30px;">
-<p><span class="math display">\[\scriptsize{\begin{split}
-  \color{#2E8B57}(T_2 &amp;,\color{#2E8B57}\delta_2) \\
-  &amp; \color{#2E8B57}w_2 \\
-  \color{#D2691E}(y_{12}(t_{ij}), &amp; \color{#D2691E}\dots, y_{L2}(t_{ij}))
-  \end{split}}\]</span></p>
-</div>
-<div style="position:absolute; top:55%; left:84%; font-size:30px;">
-<p><img src="images/arrow.png" style="width:18%;" class="fragment fade-in"></p>
-</div>
-<div class="fragment fade-in" style="position:absolute; top:80%; left:75%; font-size:30px;">
-<p><span class="math display">\[\scriptsize{\begin{split}
-  \color{#2E8B57}(T_n &amp;,\color{#2E8B57}\delta_n) \\
-  &amp; \color{#2E8B57}w_n \\
-  \color{#D2691E}(y_{1n}(t_{ij}), &amp; \color{#D2691E}\dots, y_{Ln}(t_{ij}))
-  \end{split}}\]</span></p>
-</div>
-</section>
-<section id="multivariate-longitudinal-data-1" class="slide level2">
-<h2>Multivariate longitudinal data</h2>
 <div style="position:absolute; top:20%; left:2%; font-size:30px;">
 <p><img src="images/men5.png" style="width:50%;" class="fragment fade-in"></p>
 </div>
@@ -508,14 +463,6 @@ h_i(t)= h_0(t)\exp \left[ \, \colorbox{#2E8B57}{$\color{white}\boldsymbol w_i^\t
   \]</span></p>
 </div>
 </section>
-<section id="super-learning" class="slide level2">
-<h2>Super learning</h2>
-<ul>
-<li><span style="color:#00BFFF;">Super learning (SL)</span> is an ensemble method that <span style="color:#00BFFF;">combines</span> prediction algorithms to obtain an optimal prediction</li>
-<li><span style="color:#00BFFF;">Optimality</span> is defined with respect a <span style="color:#00BFFF;">strictly proper scoring</span> rule (a metric uniquely minimized by the true model)</li>
-<li>SL is built under <span style="color:#00BFFF;">cross-validation</span> (CV) framework</li>
-</ul>
-</section>
 <section id="idea" class="slide level2">
 <h2>Idea</h2>
 <ul>
@@ -550,17 +497,13 @@ h_i(t)= h_0(t)\exp \left[ \, \colorbox{#2E8B57}{$\color{white}\boldsymbol w_i^\t
   M_L:\, h_i(t)= h_0(t)\exp \left[ \, \boldsymbol w_i^\top \boldsymbol\gamma + \alpha_L\, m_{Li}(t) \, \right]\]</span></p>
 </div>
 </section>
-<section id="super-learning-1" class="slide level2">
+<section id="super-learning" class="slide level2">
 <h2>Super learning</h2>
-<div class="fragment fade-in-then-out" style="position:absolute; top:22%; left:7%;">
-<p><img src="images/SL_student_predict.png" style="width:120%; text-align:center;"></p>
-</div>
-<div class="fragment fade-in-then-out" style="position:absolute; top:29%; left:9%;">
-<p><img src="images/SL_student_optim.png" style="width:130%; text-align:center;"></p>
-</div>
-<div class="fragment fade-in-then-out" style="position:absolute; top:13%; left:9%;">
-<p><img src="images/SL_student_combination.png" style="width:72%; text-align:center;"></p>
-</div>
+<ul>
+<li><span style="color:#00BFFF;">Super learning (SL)</span> is an ensemble method that <span style="color:#00BFFF;">combines</span> prediction algorithms to obtain an optimal prediction</li>
+<li><span style="color:#00BFFF;">Optimality</span> is defined with respect a <span style="color:#00BFFF;">strictly proper scoring</span> rule (a metric uniquely minimized by the true model)</li>
+<li>SL is built under <span style="color:#00BFFF;">cross-validation</span> (CV) framework</li>
+</ul>
 </section>
 <section id="simulation-study" class="slide level2">
 <h2>Simulation study</h2>

@@ -39,13 +39,6 @@
     "href": "index.html#multivariate-longitudinal-data",
     "title": "",
     "section": "Multivariate longitudinal data",
-    "text": "Multivariate longitudinal data\n\n\n\n\n\n\n\n\\[\\huge{\\cdots}\\]\n\n\n\n\n\n\n\n\n\\[\\require{color}\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_1 &,\\color{#2E8B57}\\delta_1) \\\\\n  & \\color{#2E8B57}w_1 \\\\\n  \\color{#D2691E}(y_{11}(t_{ij}), & \\color{#D2691E}\\dots, y_{L1}(t_{ij}))\n  \\end{split}}\\]\n\n\n\n\n\n\\[\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_2 &,\\color{#2E8B57}\\delta_2) \\\\\n  & \\color{#2E8B57}w_2 \\\\\n  \\color{#D2691E}(y_{12}(t_{ij}), & \\color{#D2691E}\\dots, y_{L2}(t_{ij}))\n  \\end{split}}\\]\n\n\n\n\n\n\\[\\scriptsize{\\begin{split}\n  \\color{#2E8B57}(T_n &,\\color{#2E8B57}\\delta_n) \\\\\n  & \\color{#2E8B57}w_n \\\\\n  \\color{#D2691E}(y_{1n}(t_{ij}), & \\color{#D2691E}\\dots, y_{Ln}(t_{ij}))\n  \\end{split}}\\]"
-  },
-  {
-    "objectID": "index.html#multivariate-longitudinal-data-1",
-    "href": "index.html#multivariate-longitudinal-data-1",
-    "title": "",
-    "section": "Multivariate longitudinal data",
     "text": "Multivariate longitudinal data\n\n\n\n\n\\[i\\]\n\n\n\n\n\n\\[\\require{color}\\color{#2E8B57}\\scriptsize{\\begin{split}\n  &(T_i ,\\delta_i) = (6.43, 0) \\\\\n  w_i &= (\\text{female}, \\text{ D} \\text{-peni}  , 56)\n  \\end{split}}\\]\n\n\n\\[\\require{color}\\color{#D2691E}\\scriptsize{\\begin{split}\n  &(y_{1i}(t_{ij}), y_{2i}(t_{ij}) , y_{3i}(t_{ij})) = \\\\\n  (\\log(\\texttt{serBilir})_i&(t_{ij}), \\texttt{albumin}_i(t_{ij}), \\texttt{alkaline}_i(t_{ij}))\n  \\end{split}}\\]"
   },
   {
@@ -63,13 +56,6 @@
     "text": "Dynamic predictions\n\nNew subject \\(j\\) with \\(\\textcolor{#2E8B57}{w_j}\\) and\n\n\\[\n\\require{color}\\color{#D2691E}\\boldsymbol{\\mathcal{Y}_{j}^o(t)}=\\left\\{y_{lj}(t_{ik}) ; 0 \\leq t_{ik} \\leq t, k=1,\\dots, n_{lj}, l=1,\\dots,L\\right\\}\n\\]\n\n\nCumulative risk probabilities\n\n\\[\n  \\normalsize\\require{color}\n  \\pi_{j}(u \\mid t)=\\operatorname{P}\\left(T_{j}^* \\leq u \\mid T_{j}^*&gt;t, \\boldsymbol{\\color{#D2691E}{\\mathcal{Y}}_{j}^o(t)},  \\textcolor{#2E8B57}{w_j}; \\boldsymbol{\\theta}\\right)\n  \\]"
   },
   {
-    "objectID": "index.html#super-learning",
-    "href": "index.html#super-learning",
-    "title": "",
-    "section": "Super learning",
-    "text": "Super learning\n\nSuper learning (SL) is an ensemble method that combines prediction algorithms to obtain an optimal prediction\nOptimality is defined with respect a strictly proper scoring rule (a metric uniquely minimized by the true model)\nSL is built under cross-validation (CV) framework"
-  },
-  {
     "objectID": "index.html#idea",
     "href": "index.html#idea",
     "title": "",
@@ -77,11 +63,11 @@
     "text": "Idea\n\nDecompose the multivariate joint model:\n\n\n\\[\\normalsize\\require{color}\n  h_i(t)= h_0(t)\\exp \\left[ \\, \\boldsymbol w_i^\\top \\boldsymbol\\gamma + \\sum_{l=0}^L\\alpha_l\\, m_{li}(t) \\, \\right]\\]\n\n\n\n\n\n\\[\\normalsize\\require{color}\n  M_1:\\, h_i(t)= h_0(t)\\exp \\left[ \\, \\boldsymbol w_i^\\top \\boldsymbol\\gamma + \\alpha_1\\, m_{1i}(t) \\, \\right]\\]\n\n\n\n\n\n\\[\\normalsize\\require{color}\n  M_2:\\,h_i(t)= h_0(t)\\exp \\left[ \\, \\boldsymbol w_i^\\top \\boldsymbol\\gamma + \\alpha_2\\, m_{2i}(t) \\, \\right]\\]\n\n\n\\[\\huge\\vdots\\]\n\n\n\n\n\n\\[\\normalsize\\require{color}\n  M_L:\\, h_i(t)= h_0(t)\\exp \\left[ \\, \\boldsymbol w_i^\\top \\boldsymbol\\gamma + \\alpha_L\\, m_{Li}(t) \\, \\right]\\]"
   },
   {
-    "objectID": "index.html#super-learning-1",
-    "href": "index.html#super-learning-1",
+    "objectID": "index.html#super-learning",
+    "href": "index.html#super-learning",
     "title": "",
     "section": "Super learning",
-    "text": "Super learning"
+    "text": "Super learning\n\nSuper learning (SL) is an ensemble method that combines prediction algorithms to obtain an optimal prediction\nOptimality is defined with respect a strictly proper scoring rule (a metric uniquely minimized by the true model)\nSL is built under cross-validation (CV) framework"
   },
   {
     "objectID": "index.html#simulation-study",

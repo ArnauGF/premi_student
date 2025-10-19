@@ -70,61 +70,6 @@ format:
     -   $\require{color}\textcolor{#D2691E}{y_{li}(t_{ij})}$ value of the longitudinal outcome at $t_{ij}$, $j=1,\dots,n_{li}$
 -   $\require{color}\textcolor{#2E8B57}{w_i}$ vector of baseline covarites
 
-
-## Multivariate longitudinal data
-
-<div style="position:absolute; top:15%; left:10%; font-size:30px;">
-  <img src="images/men1.png" style="width:50%;" class="fragment fade-in">
-</div>
-
-<div style="position:absolute; top:15%; left:33%; font-size:30px;">
-  <img src="images/men2.png" style="width:42%;" class="fragment fade-in">
-</div>
-
-<div style="position:absolute; top:30%; left:55%; font-size:30px;" class="fragment fade-in">
-  $$\huge{\cdots}$$
-</div>
-
-<div style="position:absolute; top:15%; left:80%; font-size:30px;">
-  <img src="images/men3.png" style="width:50%;" class="fragment fade-in">
-</div>
-
-<div style="position:absolute; top:55%; left:13%; font-size:30px;">
-  <img src="images/arrow.png" style="width:18%;" class="fragment fade-in">
-</div>
-
-<div style="position:absolute; top:80%; left:4%; font-size:30px;" class="fragment fade-in">
-  $$\require{color}\scriptsize{\begin{split}
-  \color{#2E8B57}(T_1 &,\color{#2E8B57}\delta_1) \\
-  & \color{#2E8B57}w_1 \\
-  \color{#D2691E}(y_{11}(t_{ij}), & \color{#D2691E}\dots, y_{L1}(t_{ij}))
-  \end{split}}$$
-</div>
-
-<div style="position:absolute; top:55%; left:36%; font-size:30px;">
-  <img src="images/arrow.png" style="width:18%;" class="fragment fade-in">
-</div>
-
-<div style="position:absolute; top:80%; left:28%; font-size:30px;" class="fragment fade-in">
-  $$\scriptsize{\begin{split}
-  \color{#2E8B57}(T_2 &,\color{#2E8B57}\delta_2) \\
-  & \color{#2E8B57}w_2 \\
-  \color{#D2691E}(y_{12}(t_{ij}), & \color{#D2691E}\dots, y_{L2}(t_{ij}))
-  \end{split}}$$
-</div>
-
-<div style="position:absolute; top:55%; left:84%; font-size:30px;">
-  <img src="images/arrow.png" style="width:18%;" class="fragment fade-in">
-</div>
-
-<div style="position:absolute; top:80%; left:75%; font-size:30px;" class="fragment fade-in">
-  $$\scriptsize{\begin{split}
-  \color{#2E8B57}(T_n &,\color{#2E8B57}\delta_n) \\
-  & \color{#2E8B57}w_n \\
-  \color{#D2691E}(y_{1n}(t_{ij}), & \color{#D2691E}\dots, y_{Ln}(t_{ij}))
-  \end{split}}$$
-</div>
-
 ## Multivariate longitudinal data
 
 <div style="position:absolute; top:20%; left:2%; font-size:30px;">
@@ -204,12 +149,6 @@ $$
   $$
 </div>
 
-## Super learning
-
-- [Super learning (SL)]{style="color:#00BFFF;"} is an ensemble method that [combines]{style="color:#00BFFF;"} prediction algorithms to obtain an optimal prediction
-- [Optimality]{style="color:#00BFFF;"} is defined with respect a [strictly proper scoring]{style="color:#00BFFF;"} rule (a metric uniquely minimized by the true model)
-- SL is built under [cross-validation]{style="color:#00BFFF;"} (CV) framework
-
 ## Idea
 
 - [Decompose]{style="color:#00BFFF;"} the multivariate joint model:
@@ -252,18 +191,9 @@ $$
 
 ## Super learning
 
-
-<div style="position:absolute; top:22%; left:7%;" class="fragment fade-in-then-out">
-  <img src="images/SL_student_predict.png" style="width:120%; text-align:center;">
-</div>
-
-<div style="position:absolute; top:29%; left:9%;" class="fragment fade-in-then-out">
-  <img src="images/SL_student_optim.png" style="width:130%; text-align:center;">
-</div>
-
-<div style="position:absolute; top:13%; left:9%;" class="fragment fade-in-then-out">
-  <img src="images/SL_student_combination.png" style="width:72%; text-align:center;">
-</div>
+- [Super learning (SL)]{style="color:#00BFFF;"} is an ensemble method that [combines]{style="color:#00BFFF;"} prediction algorithms to obtain an optimal prediction
+- [Optimality]{style="color:#00BFFF;"} is defined with respect a [strictly proper scoring]{style="color:#00BFFF;"} rule (a metric uniquely minimized by the true model)
+- SL is built under [cross-validation]{style="color:#00BFFF;"} (CV) framework
 
 ## Simulation study 
 
